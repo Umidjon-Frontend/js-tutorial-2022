@@ -92,3 +92,56 @@
 // let text = "Hello World";
 // let newArr = text.split("");
 // console.log(newArr);
+
+// String Search Methods
+// indexOf()
+// let str = "Assalomu alaykum xurmatli dasturchi";
+// let result = str.indexOf("a");
+// console.log(result);
+
+// lastIndexOf()
+// let str = "Please locate where 'locate' occurs!";
+// let result = str.lastIndexOf("locate");
+// console.log(result);
+
+// search()
+// let str = "ABCDEFGH";
+// let result = str.search("E");
+// console.log(result);
+
+// match()
+// let str = "ABCDEFGH";
+// let result = str.match("A");
+// console.log(result);
+
+// includes()
+// let text = "ABCDEFGH";
+// let result = text.includes("B");
+// console.log(result);
+
+// startsWith()
+// let text = "ABCDEFGH";
+// let result = text.startsWith("A");
+// console.log(result);
+
+// endsWith()
+// let text = "ABCDEFGH";
+// let result = text.endsWith("G");
+// console.log(result);
+
+// String Templates
+
+// back-tics
+// let text = `Hello World!`;
+// let text = `He's often called "Johnny"`;
+// let text =
+// `The quick
+// brown fox
+// jumps over
+// the lazy dog`;
+
+// Interpolation
+// let firstName = "John";
+// let lastName = "Doe";
+// let text = `Welcome ${firstName}, ${lastName}!`;
+// console.log(text);
